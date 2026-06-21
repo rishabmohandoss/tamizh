@@ -296,6 +296,22 @@ a:hover { text-decoration: underline; }
   color: var(--text-secondary);
 }
 
+.card-name-ta {
+  display: block;
+  font-family: 'Catamaran', -apple-system, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--text-tertiary);
+  margin-top: 0.15rem;
+}
+
+.card-desc {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-top: 0.5rem;
+}
+
 /* --- 8. Reduced-motion card override ----------------------- */
 @media (prefers-reduced-motion: reduce) {
   .card-inner {
